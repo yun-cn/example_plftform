@@ -1,0 +1,23 @@
+#!/usr/bin/env bash
+set -euo pipefail
+IFS=$'\n\t'
+
+initial_directory=$(pwd)
+
+# cd into script directory
+cd "$(dirname "$0")"
+source ./utils
+assert_app_env
+
+: ${SPACEMARKET_CRAWLER_ENV:="development"}
+
+: ${SPACEMARKET_CRAWLER_ENV:="development"}
+
+sm_env=$(green $SPACEMARKET_CRAWLER_ENV)
+db_name="spacemarket_crawler_$SPACEMARKET_CRAWLER_ENV"
+desc="Droping database! $(red $db_name)"
+
+echo "SPACEMARKET_CRAWLER_ENV=$sm_env $desc"
+dropdb "$db_name"
+
+cd $initial_directory

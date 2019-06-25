@@ -1,0 +1,22 @@
+#!/bin/bash
+
+unameOut="$(uname -s)"
+case "${unameOut}" in
+Linux*) platform=linux ;;
+Darwin*) platform=darwin ;;
+CYGWIN*) platform=windows ;;
+MINGW*) platform=windows ;;
+*) echo 'unsupported platform' && exit 1 ;;
+esac
+echo ${platform}
+
+initial_directory=$(pwd)
+
+# cd into script directory
+cd "$(dirname "$0")"
+cd ../tools
+
+version="4.2.3"
+curl -L https://github.com/030/go-yq/releases/download/2.0.1/go-yq-$platform >go-yq
+
+chmod +x ./go-yq

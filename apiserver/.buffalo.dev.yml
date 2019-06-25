@@ -1,0 +1,22 @@
+app_root: .
+ignored_folders:
+  - vendor
+  - log
+  - logs
+  - assets
+  - public
+  - grifts
+  - tmp
+  - builds
+  - bin
+  - node_modules
+  - .sass-cache
+included_extensions:
+  - .go
+  - .env
+build_path: builds
+build_delay: 200ns
+binary_name: apiserver-build
+command_flags: ["-work"]
+enable_colors: true
+log_name: buffalo

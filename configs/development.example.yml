@@ -1,0 +1,7 @@
+database:
+  host: localhost
+  port: 5432
+  name: spacemarket_crawler_development
+  password: whoami
+  username: whoami
+  url: postgres://whoami:whoami@localhost:5432/spacemarket_crawler_development?sslmode=disable

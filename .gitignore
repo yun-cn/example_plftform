@@ -1,0 +1,97 @@
+# Created by https://www.gitignore.io/api/go
+# Edit at https://www.gitignore.io/?templates=go
+
+### Go ###
+#IDE
+.idea/
+/.idea/
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+### Go Patch ###
+/vendor/
+/Godeps/
+
+# End of https://www.gitignore.io/api/go
+*.local
+*.local.*
+configs/*
+!configs/development.example.yml
+
+builds/*
+!builds/.keep
+ignored
+
+# Created by https://www.gitignore.io/api/terraform
+# Edit at https://www.gitignore.io/?templates=terraform
+
+### Terraform ###
+# Local .terraform directories
+**/.terraform/*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+# Crash log files
+crash.log
+
+# Ignore any .tfvars files that are generated automatically for each Terraform run. Most
+# .tfvars files are managed as part of configuration and so should be included in
+# version control.
+#
+# example.tfvars
+
+# Ignore override files as they are usually used to override resources locally and so
+# are not checked in
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Include override files you do wish to add to version control using negated pattern
+# !example_override.tf
+
+# End of https://www.gitignore.io/api/terraform
+
+# Buffalo web app start:
+apiserver/**/*.log
+apiserver/**/*.sqlite
+apiserver/**/.DS_Store
+apiserver/*-packr.go
+apiserver/*.pid
+apiserver/*.sublime*
+apiserver/.buffalo/
+apiserver/.console_history
+apiserver/.env
+apiserver/.grifter/
+apiserver/.idea/
+apiserver/.jhw-cache/
+apiserver/.refresh/
+apiserver/.sass-cache/
+apiserver/.sass-cache/*
+apiserver/.svn
+apiserver/.vendor/
+apiserver/.vscode/
+apiserver/bin/
+apiserver/coverage
+apiserver/coverage.data
+apiserver/dist/
+apiserver/generated/
+apiserver/jhw.*
+apiserver/node_modules/
+apiserver/node_modules/
+apiserver/public/assets/
+apiserver/tmp/
+apiserver/vendor
+# Buffalo web app end.

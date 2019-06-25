@@ -1,0 +1,77 @@
+amenities:
+  whiteboard: "ホワイトボード"
+  tables: "テーブル"
+  projector: "プロジェクター・スクリーン"
+  kitchen_facilities: "キッチン設備"
+  tv: "テレビ"
+  mirrors: "ミラー"
+  showers: "シャワー"
+  public_transportation: "公共交通機関"
+  air_conditioner: "冷暖房"
+  restaurant: "周辺に飲食店"
+  market: "周辺にスーパー/コンビニ"
+  refrigerator: "冷蔵庫"
+  power_equipment: "電源"
+  accessibility: "バリアフリー"
+  drinking: "飲酒可"
+  child: "子連れ可"
+  kitchen_equipment: "調理機材"
+  toilet: "トイレ"
+  lighting_equipment: "照明設備"
+  wifi: "WIFI"
+  food_allowed: "飲食可"
+  over_pm10: "夜22時以降利用可"
+  private_room: "個室（壁・扉あり）"
+  internet_wifi_mobile: "インターネット回線（無線・モバイル）"
+  natural_light: "自然光"
+  near_station_10min: "駅まで徒歩10分以内"
+  smoking_area: "スペース外に喫煙所"
+  flooring: "フローリング"
+  elevator: "エレベーター"
+  sofa: "ソファ"
+  microwave: "電子レンジ"
+  dvd_br_player: "DVD・Blue-rayプレイヤー"
+  extension_cord: "延長コード"
+  takoyaki: "たこ焼き器"
+  pot: "鍋"
+  led_light: "LEDライト"
+  surveillance_camera: "防犯カメラあり"
+  commercial_shoot: "商用撮影可"
+  cooking: "調理可"
+  chairs: "椅子"
+  printer: "プリンター"
+  changing_room: "着替えスペース"
+  disposal: "ゴミ処分可"
+  hotplate: "ホットプレート"
+  monitor: "モニター"
+  bathtub: "バスタブ"
+  cable_hdmi: "HDMIケーブル"
+  sound_system: "音響設備"
+  smoking: "喫煙可"
+  bar: "バーカウンター"
+  hanger_rack: "ハンガーラック"
+  full_length_mirror: "全身鏡"
+
+# Instabase EquipmentIDs
+instabase:
+  projector: 5 # プロジェクター
+  whiteboard: 4 # ホワイトボード
+  wifi: 1 # 無線LAN
+  kichen: 10 # キッチン
+  piano: 11 #  ピアノ
+  mirror: 15 # 鏡
+  parking: 21 # 駐車場
+  aircon: 20 # エアコン
+  dvdplayer: 14 #  DVDプレイヤー
+  pasokon: 16 # パソコン
+  terbi: 19 # テレビ
+  musical_instruments: 8 # 楽器
+  amplifier_speaker: 17 # アンプ・スピーカー
+  mic_set: 12 # マイクセット
+  wired_mic_set: 13 # 有線マイクセット
+  monitor: 7 # モニター
+  wired_lan: 9 # 有線LAN
+  chair: 3 # 椅子
+  table: 2 # テーブル
+  others: 18 # その他の備品
+

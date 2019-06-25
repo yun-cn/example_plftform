@@ -1,0 +1,353 @@
+{
+    "data": {
+        "reputations": {
+            "__typename": "ReputationList",
+            "pageInfo": {
+                "__typename": "PageInfo",
+                "totalCount": 76
+            },
+            "results": [
+                {
+                    "__typename": "Reputation",
+                    "description": "イメージ通りの内装で、6人で利用したのですが広さも十分でした。備品の人生ゲームや、持ち込みのTVゲームであっという間に時間が過ぎるくらい楽しむ事が出来て良かったです。ゴミステーションの位置が若干分かりづらかったのと、机を移動した際に床が食べカス等で汚れていたので少し不快でしたが、全体的に満足でした。",
+                    "from": {
+                        "__typename": "User",
+                        "id": "309521",
+                        "name": "うーたん",
+                        "profileImage": "https://cdnspacemarket.com/uploads/users/309521/72acded3acd45e4c8b6ed680854b8ab1.jpg",
+                        "username": "gMJ8w7jHVXEXdieb"
+                    },
+                    "reservation": {
+                        "__typename": "Reservation",
+                        "startedAt": "2019-02-23T18:00:00+09:00",
+                        "eventTypeText": "Party",
+                        "numberOfGuests": null
+                    }
+                },
+                {
+                    "__typename": "Reputation",
+                    "description": "素敵なお部屋でした、しかしプロジェクターの備品がなく使用できなかったので－１の評価とさせて頂きます。",
+                    "from": {
+                        "__typename": "User",
+                        "id": "287450",
+                        "name": "此田 柚",
+                        "profileImage": "https://cdnspacemarket.com/uploads/users/287450/3d4c856f9a0f3193e531fa9a766be3ef.jpg",
+                        "username": "_E_6W6qpJDThPvA-"
+                    },
+                    "reservation": {
+                        "__typename": "Reservation",
+                        "startedAt": "2019-02-23T11:00:00+09:00",
+                        "eventTypeText": "Party",
+                        "numberOfGuests": null
+                    }
+                },
+                {
+                    "__typename": "Reputation",
+                    "description": "入り口が分かりにくく、建物は大分古くて不安だったのですが中はとてもきれいで快適に過ごせました。\nまた機会があれば利用したいです。",
+                    "from": {
+                        "__typename": "User",
+                        "id": "303216",
+                        "name": "まみさん",
+                        "profileImage": "https://cdnspacemarket.com/uploads/users/303216/639a617ff0127fecb59fb95799e0d279.jpg",
+                        "username": "XRxK5UFREvl0GtMm"
+                    },
+                    "reservation": {
+                        "__typename": "Reservation",
+                        "startedAt": "2019-02-21T13:00:00+09:00",
+                        "eventTypeText": "Party",
+                        "numberOfGuests": null
+                    }
+                },
+                {
+                    "__typename": "Reputation",
+                    "description": "友人と好きなもののプレゼン会ということで、プロジェクターと合わせて利用させていただきました。丁寧な道案内のおかげで迷わず着き、スペースもとても清潔で広々とした空間でした。リラックスして、ゆっくりと過ごせ満足です。プロジェクターと接続するコードの説明が前もってあったら良かっだなと思ったので星１つ減です。",
+                    "from": {
+                        "__typename": "User",
+                        "id": "303120",
+                        "name": "muraoku",
+                        "profileImage": "https://cdnspacemarket.com/images/api/default_user.png",
+                        "username": "yYknYLLMEP49o4cI"
+                    },
+                    "reservation": {
+                        "__typename": "Reservation",
+                        "startedAt": "2019-02-19T17:00:00+09:00",
+                        "eventTypeText": "Other",
+                        "numberOfGuests": null
+                    }
+                },
+                {
+                    "__typename": "Reputation",
+                    "description": "場所が少しわかりにくかったですがその他は文句なしでした！\n外観からは想像できないくらい内装はお洒落で綺麗でしたし、マットレスペースがフカフカで、滞在時間の大半をそこでだらだらしてしまいました(笑)\n友人の家でお泊り会をしているかのようなリラックスできる空間で、置いてあった人生ゲームとトランプで友人とも大盛り上がりで楽しい時間が過ごせました。\nチェックアウト前にみんなで掃除をするというのも珍しい体験で、一体感が生まれ、いい経験になったと思います。\nすぐ近くにコンビニがあるのも嬉しかったです。\n機会があったら是非また利用したいと思います！",
+                    "from": {
+                        "__typename": "User",
+                        "id": "298327",
+                        "name": "三ツ矢豆子",
+                        "profileImage": "https://cdnspacemarket.com/uploads/users/298327/72acded3acd45e4c8b6ed680854b8ab1.jpg",
+                        "username": "QgRauN03Wg_HJkC_"
+                    },
+                    "reservation": {
+                        "__typename": "Reservation",
+                        "startedAt": "2019-02-17T11:00:00+09:00",
+                        "eventTypeText": "Party",
+                        "numberOfGuests": null
+                    }
+                },
+                {
+                    "__typename": "Reputation",
+                    "description": "この度はスペースを貸して頂き本当にありがとうございました。家具もオシャレでリラックスできる空間でした。毛布がなく、少し寒かったのですがそれ以外は快適でした。",
+                    "from": {
+                        "__typename": "User",
+                        "id": "309449",
+                        "name": "かお",
+                        "profileImage": "https://cdnspacemarket.com/uploads/users/309449/92e3b374f686ed8556e2b02b9016a401.jpeg",
+                        "username": "ev1We1d3p9mrHcyB"
+                    },
+                    "reservation": {
+                        "__typename": "Reservation",
+                        "startedAt": "2019-02-17T21:00:00+09:00",
+                        "eventTypeText": "Party",
+                        "numberOfGuests": null
+                    }
+                },
+                {
+                    "__typename": "Reputation",
+                    "description": "普通に綺麗で、安かったので良かったです。ただ、入口が分かりにくいので、看板などあったら嬉しかったです。",
+                    "from": {
+                        "__typename": "User",
+                        "id": "307713",
+                        "name": "あまね🍌🐟0317 ﾌﾞﾘﾃﾞ はかぜ",
+                        "profileImage": "https://cdnspacemarket.com/uploads/users/307713/95a606d6dbc4f362df6595414e8e221a.jpg",
+                        "username": "6Qswh4Ma-KJM0Yk6"
+                    },
+                    "reservation": {
+                        "__typename": "Reservation",
+                        "startedAt": "2019-02-14T08:00:00+09:00",
+                        "eventTypeText": "Photo Shoot",
+                        "numberOfGuests": null
+                    }
+                },
+                {
+                    "__typename": "Reputation",
+                    "description": "少し部屋が荒れた状態でしたが、セルフクリーニングなのである程度は仕方がないと割り切って使用しました。\n設備も充実していて楽しい時間を過ごせました！ありがとうございました！",
+                    "from": {
+                        "__typename": "User",
+                        "id": "298656",
+                        "name": "ih",
+                        "profileImage": "https://cdnspacemarket.com/uploads/users/298656/9120d95e9f5ff33c4212bcf6360f8942.jpeg",
+                        "username": "2iU6zDCb-bj2r291"
+                    },
+                    "reservation": {
+                        "__typename": "Reservation",
+                        "startedAt": "2019-02-07T21:00:00+09:00",
+                        "eventTypeText": "Party",
+                        "numberOfGuests": null
+                    }
+                },
+                {
+                    "__typename": "Reputation",
+                    "description": "鑑賞会をするためにスペースを借りました。テレビ自体は大きくはありませんでしたが、寝転びながらなど自宅感覚でリラックスして鑑賞会をすることができました。設備も充実していて、気の知れた友人とゆっくり過ごしたい時に最適だなと思いました。",
+                    "from": {
+                        "__typename": "User",
+                        "id": "293841",
+                        "name": "石戸谷香里",
+                        "profileImage": "https://cdnspacemarket.com/uploads/users/293841/72acded3acd45e4c8b6ed680854b8ab1.jpg",
+                        "username": "sGRxQuBPvV_D3ATO"
+                    },
+                    "reservation": {
+                        "__typename": "Reservation",
+                        "startedAt": "2019-01-30T10:00:00+09:00",
+                        "eventTypeText": "Party",
+                        "numberOfGuests": null
+                    }
+                },
+                {
+                    "__typename": "Reputation",
+                    "description": "友人との飲み会に利用しました。冷蔵庫もありアイスを食べたりもしました。BluRayプレイヤーもあったので持ってきたBluRayを再生して楽しみました。",
+                    "from": {
+                        "__typename": "User",
+                        "id": "293826",
+                        "name": "松岡 菜央",
+                        "profileImage": "https://cdnspacemarket.com/uploads/users/293826/72683ce8f27d33c73f45ac1faca09cfb.jpeg",
+                        "username": "ivIlagEVWsL8k-gS"
+                    },
+                    "reservation": {
+                        "__typename": "Reservation",
+                        "startedAt": "2019-02-08T19:00:00+09:00",
+                        "eventTypeText": "Party",
+                        "numberOfGuests": null
+                    }
+                },
+                {
+                    "__typename": "Reputation",
+                    "description": "前に利用していた人の生ゴミが残っていたところ以外はとても良かったです。",
+                    "from": {
+                        "__typename": "User",
+                        "id": "307549",
+                        "name": "おののこまち",
+                        "profileImage": "https://cdnspacemarket.com/uploads/users/307549/72acded3acd45e4c8b6ed680854b8ab1.jpg",
+                        "username": "owTGKYoX6YxelN37"
+                    },
+                    "reservation": {
+                        "__typename": "Reservation",
+                        "startedAt": "2019-02-10T11:00:00+09:00",
+                        "eventTypeText": "Party",
+                        "numberOfGuests": null
+                    }
+                },
+                {
+                    "__typename": "Reputation",
+                    "description": "4人で利用して、広さは丁度良かったです。騒音を測る機械が置いてあり、落ち着かなかったのが少し残念でした。",
+                    "from": {
+                        "__typename": "User",
+                        "id": "298658",
+                        "name": "yellow",
+                        "profileImage": "https://cdnspacemarket.com/images/api/default_user.png",
+                        "username": "4RsAXe3x9JkUuVRz"
+                    },
+                    "reservation": {
+                        "__typename": "Reservation",
+                        "startedAt": "2019-02-09T11:00:00+09:00",
+                        "eventTypeText": "Other",
+                        "numberOfGuests": null
+                    }
+                },
+                {
+                    "__typename": "Reputation",
+                    "description": "パーティーとして利用させていただきました。\n4人でも問題ないくらい広いお部屋でした。",
+                    "from": {
+                        "__typename": "User",
+                        "id": "299939",
+                        "name": "Hiruta Yusuke",
+                        "profileImage": "https://cdnspacemarket.com/uploads/users/299939/eb651c3b9ce2e219c0dddc396fc27d38.jpeg",
+                        "username": "cffUX__4U2mZRS3P"
+                    },
+                    "reservation": {
+                        "__typename": "Reservation",
+                        "startedAt": "2019-02-03T22:00:00+09:00",
+                        "eventTypeText": "Party",
+                        "numberOfGuests": null
+                    }
+                },
+                {
+                    "__typename": "Reputation",
+                    "description": "利用する時に清掃が全然出来てなくて自分達でまず掃除をしようと思ったらコロコロなどの清掃用具が切れていて困った。電話をかけたらすぐ対応してくれたのでそれはよかったです。それ以外は特に不便なことも無く楽しく過ごさせて頂きました。",
+                    "from": {
+                        "__typename": "User",
+                        "id": "295142",
+                        "name": "nmo",
+                        "profileImage": "https://cdnspacemarket.com/images/api/default_user.png",
+                        "username": "n8NS9MxnxYK-y0kC"
+                    },
+                    "reservation": {
+                        "__typename": "Reservation",
+                        "startedAt": "2019-01-27T15:00:00+09:00",
+                        "eventTypeText": "Party",
+                        "numberOfGuests": null
+                    }
+                },
+                {
+                    "__typename": "Reputation",
+                    "description": "DVD鑑賞をするため女性3人でゆっくりできる場所を探していました。\nスペース内は十分に広さがあり、掃除道具やキッチン道具も揃っていて快適な空間でした。ただ毛布等は用意されていないので泊まる際は各自で何か掛けるものを用意された方が良いかもしれません。エアコンが効いていても冬場は肌寒いです。（ひざ掛けはありましたがとても小さいです）\nですがとても良い時間を過ごすことができました！機会があればまた利用させて頂きたいと思います。",
+                    "from": {
+                        "__typename": "User",
+                        "id": "301739",
+                        "name": "ちか",
+                        "profileImage": "https://cdnspacemarket.com/images/api/default_user.png",
+                        "username": "Op9kE9Gy1via2h36"
+                    },
+                    "reservation": {
+                        "__typename": "Reservation",
+                        "startedAt": "2019-02-02T22:00:00+09:00",
+                        "eventTypeText": "Party",
+                        "numberOfGuests": null
+                    }
+                },
+                {
+                    "__typename": "Reputation",
+                    "description": "部屋までの道のりを動画で説明して下さったので迷わずに到着することができました！シャワー使用は出来ないと書いてありましたが、使用できます！友人と和気藹々と過ごせました！ありがとうございます！セルフクリーニングの資料を見ながら必死に掃除しました笑 ",
+                    "from": {
+                        "__typename": "User",
+                        "id": "291457",
+                        "name": "ゆいこ",
+                        "profileImage": "https://cdnspacemarket.com/uploads/users/291457/43d7a28a920cecc8e682ad772b97e170.jpg",
+                        "username": "vjXomhgCjF74cp_f"
+                    },
+                    "reservation": {
+                        "__typename": "Reservation",
+                        "startedAt": "2019-01-30T22:00:00+09:00",
+                        "eventTypeText": "Party",
+                        "numberOfGuests": null
+                    }
+                },
+                {
+                    "__typename": "Reputation",
+                    "description": "コスプレ撮影で利用しました。入口が分かりづらかったですが、部屋の中はゆったりした時間が過ごせて良かったです！設備も充実しており、楽しく快適に利用することができました。また機会がありましたらよろしくお願いします。",
+                    "from": {
+                        "__typename": "User",
+                        "id": "291353",
+                        "name": "荒川 美紀",
+                        "profileImage": "https://cdnspacemarket.com/uploads/users/291353/3ef9275bf097ea734d94f6729f881ceb.jpeg",
+                        "username": "2CyLq1jfxiINq_6T"
+                    },
+                    "reservation": {
+                        "__typename": "Reservation",
+                        "startedAt": "2019-02-01T11:00:00+09:00",
+                        "eventTypeText": "Photo Shoot",
+                        "numberOfGuests": null
+                    }
+                },
+                {
+                    "__typename": "Reputation",
+                    "description": "友人との会合に使用しました。お店の方に邪魔されることもなく、好きなものを持ち込めるのでとても便利でした。",
+                    "from": {
+                        "__typename": "User",
+                        "id": "288602",
+                        "name": "O Maya",
+                        "profileImage": "https://cdnspacemarket.com/uploads/users/288602/72acded3acd45e4c8b6ed680854b8ab1.jpg",
+                        "username": "114YkxHuUOxnJ--w"
+                    },
+                    "reservation": {
+                        "__typename": "Reservation",
+                        "startedAt": "2019-01-20T13:00:00+09:00",
+                        "eventTypeText": "Party",
+                        "numberOfGuests": null
+                    }
+                },
+                {
+                    "__typename": "Reputation",
+                    "description": "撮影で使用しました。\nバリエーション豊かに撮れました。\nありがとうございました。",
+                    "from": {
+                        "__typename": "User",
+                        "id": "91220",
+                        "name": "egg",
+                        "profileImage": "https://cdnspacemarket.com/uploads/users/91220/d2b5ca33bd970f64a6301fa75ae2eb22.png",
+                        "username": "VVeTrZzrbY3iz2xq"
+                    },
+                    "reservation": {
+                        "__typename": "Reservation",
+                        "startedAt": "2019-01-27T11:00:00+09:00",
+                        "eventTypeText": "Photo Shoot",
+                        "numberOfGuests": null
+                    }
+                },
+                {
+                    "__typename": "Reputation",
+                    "description": "居心地の良い空間でゆっくりできました。\nエアコンの効きが悪くなかなか暖まらなかったこと、冷蔵庫がキューブ型の小さいものであまり物が入らなかったこと、電子レンジのタイマーがダイヤル型のアナログ方式のため微調整しにくかったことで減点１しています。",
+                    "from": {
+                        "__typename": "User",
+                        "id": "298393",
+                        "name": "寺坂謙史",
+                        "profileImage": "https://cdnspacemarket.com/uploads/users/298393/72acded3acd45e4c8b6ed680854b8ab1.jpg",
+                        "username": "9JsJnBl-HY2FvBHQ"
+                    },
+                    "reservation": {
+                        "__typename": "Reservation",
+                        "startedAt": "2019-01-25T18:00:00+09:00",
+                        "eventTypeText": "Party",
+                        "numberOfGuests": null
+                    }
+                }
+            ]
+        }
+    }
+}

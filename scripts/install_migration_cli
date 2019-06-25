@@ -1,0 +1,22 @@
+#!/bin/bash
+
+unameOut="$(uname -s)"
+case "${unameOut}" in
+Linux*) platform=linux ;;
+Darwin*) platform=darwin ;;
+CYGWIN*) platform=windows ;;
+MINGW*) platform=windows ;;
+*) echo 'unsupported platform' && exit 1 ;;
+esac
+echo ${platform}
+
+initial_directory=$(pwd)
+
+# cd into script directory
+cd "$(dirname "$0")"
+cd ../tools
+
+version="4.2.3"
+curl -L https://github.com/golang-migrate/migrate/releases/download/v$version/migrate.$platform-amd64.tar.gz | tar xvz
+
+mv migrate.$platform-amd64 migrate

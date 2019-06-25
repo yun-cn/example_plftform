@@ -1,0 +1,32 @@
+#!/usr/bin/env bash
+
+#
+# USAGE
+#
+# ./bin/run_migrations
+
+initial_directory=$(pwd)
+
+# cd into script directory
+cd "$(dirname "$0")"
+
+# check env
+source ./utils
+assert_app_env
+
+# default env
+: ${SPACEMARKET_CRAWLER_ENV:="development"}
+
+sm_env=$(green $SPACEMARKET_CRAWLER_ENV)
+db_name="spacemarket_crawler_$SPACEMARKET_CRAWLER_ENV"
+desc="Migrating database! $(green $db_name)"
+
+echo "SPACEMARKET_CRAWLER_ENV=$sm_env $desc"
+
+# Go into project root
+cd ..
+
+database_url="$(./tools/go-yq .database.url "configs/$SPACEMARKET_CRAWLER_ENV.yml")"
+./tools/migrate -source "file://migrations" -database "$database_url" $@
+
+cd $initial_directory

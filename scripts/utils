@@ -1,0 +1,41 @@
+#!/usr/bin/env bash
+set -euo pipefail
+IFS=$'\n\t'
+
+allowed_envs=(
+    "test"
+    "development"
+    "production"
+)
+
+join_by() {
+    local IFS="$1"
+    shift
+    echo "$*"
+}
+
+red() {
+    local NC='\033[0m' # No Color
+    local RED="\033[0;31m"
+    all=$(join_by " " "${@}")
+    printf "${RED}$all${NC}\n"
+}
+
+green() {
+    local NC='\033[0m' # No Color
+    local GREEN='\033[0;32m'
+    all=$(join_by " " "${@}")
+    printf "${GREEN}$all${NC}\n"
+}
+
+assert_app_env() {
+    : ${SPACEMARKET_CRAWLER_ENV:="development"}
+
+    allowed=$(green ${allowed_envs[@]})
+    actual=$(red $SPACEMARKET_CRAWLER_ENV)
+
+    if ! [[ " ${allowed_envs[@]} " =~ " ${SPACEMARKET_CRAWLER_ENV} " ]]; then
+        echo "SPACEMARKET_CRAWLER_ENV must be set to one of [${allowed}] but was $actual"
+        exit 1
+    fi
+}
